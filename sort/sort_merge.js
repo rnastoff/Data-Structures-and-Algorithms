@@ -35,4 +35,5 @@ function mergeSort(arr) {
   return merge(left, right);
 }
 
-console.log(mergeSort([10, 24, 76, 73, 72, 1, 9, 1000, 2000]));
+let result = mergeSort([10, 24, 76, 73, 72, 1, 9, 1000, 2000]);
+console.log(result);
