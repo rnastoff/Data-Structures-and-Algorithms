@@ -33,7 +33,7 @@ class SinglyLinkedList {
     while (current) {
      console.log(current.val);
      current = current.next;
-   }
+    }
   }
 
   pop() {
